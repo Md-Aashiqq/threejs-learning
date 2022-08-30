@@ -75,8 +75,9 @@ renderer.render(scene, camera);
 const animate = () => {
   mesh.rotation.y += 0.01;
 
-  const time = new Date().getSeconds();
+  const time = new Date.now();
   console.log(time);
+  
 
   renderer.render(scene, camera);
 

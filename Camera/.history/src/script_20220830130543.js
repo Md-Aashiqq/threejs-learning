@@ -14,7 +14,7 @@ window.addEventListener("mousemove", (event) => {
 });
 
 /**
- * Base constructor for OrbitControls objects
+ * Base 
  */
 // Canvas
 const canvas = document.querySelector("canvas.webgl");

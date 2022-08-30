@@ -1,16 +1,32 @@
-# Three.js Journey
+# Geometry
 
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+    => Composed of vertices (point coordinates in 3D spaces) and faces (triangle that join those vertices to create a surface)
 
-``` bash
-# Install dependencies (only the first time)
-npm install
+    => Can be used for meshes but also for particles
+    => Can store more data than the position(UV coordinates , normals , colors or anything we want) 
 
-# Run the local server at localhost:8080
-npm run dev
+## Built In Geometry
 
-# Build for production in the dist/ directory
-npm run build
-```
+    => All the geometry inherit from Geometry
+
+## Box Geometry
+
+    => Just a box Geometry
+
+## Plane Geometry
+
+## Circle Geometry
+
+## Cone Geometry
+
+## Cylinder Geometry
+
+## Ring Geometry
+
+## Torus Geometry
+
+## TorusKnot Geometry
+
+## Dodecahedron Geometry
+
+

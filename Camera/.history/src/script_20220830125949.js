@@ -14,7 +14,7 @@ window.addEventListener("mousemove", (event) => {
 });
 
 /**
- * Base constructor for OrbitControls objects
+ * Base
  */
 // Canvas
 const canvas = document.querySelector("canvas.webgl");
@@ -65,7 +65,7 @@ scene.add(camera);
 const controls = new OrbitControls(camera, canvas);
 // controls.target.y = 1;
 // controls.update();
-controls.enableDamping = true;
+controls.enableDamping = false;
 
 // Renderer
 const renderer = new THREE.WebGLRenderer({

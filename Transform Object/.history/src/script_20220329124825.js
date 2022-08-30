@@ -21,9 +21,9 @@ const mesh = new THREE.Mesh(geometry, material);
 
 // 1 is basically depend on you
 
-mesh.position.x = 0.7;
-mesh.position.y = -0.6;
-mesh.position.z = 2;
+// mesh.position.x = 0.7;
+// mesh.position.y = -0.6;
+// mesh.position.z = 2;
 
 // mesh.position.set(0.7, -0.6, 1);
 
@@ -49,8 +49,8 @@ scene.add(mesh);
  * Sizes
  */
 const sizes = {
-  width: window.innerWidth,
-  height: window.innerWidth,
+  width: 800,
+  height: 600,
 };
 
 /**
@@ -61,7 +61,7 @@ camera.position.z = 3;
 
 scene.add(camera);
 
-camera.lookAt(mesh.position);
+// camera.lookAt(mesh.position);
 
 /**
  * Renderer
@@ -74,9 +74,6 @@ renderer.render(scene, camera);
 
 const animate = () => {
   mesh.rotation.y += 0.01;
-
-  const time = new Date().getSeconds();
-  console.log(time);
 
   renderer.render(scene, camera);
 
